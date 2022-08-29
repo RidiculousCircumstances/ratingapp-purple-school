@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 module.exports = {
+	staticPageGenerationTimeout: 1000,
 	images: {
 		domains: ['i1.sndcdn.com'],
 	},
