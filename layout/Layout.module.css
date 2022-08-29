@@ -5,6 +5,7 @@
 
 	min-height: 100vh;
 	gap: 40px 30px;
+	/* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
 	grid-template-areas:
 		". header header ."
 		". sidebar body ."
