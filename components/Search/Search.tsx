@@ -3,7 +3,7 @@ import styles from './Search.module.css';
 import cn from 'classnames';
 import { Input } from '../Input/Input';
 import { Button } from '../Button/Button';
-import { KeyboardEventHandler, useState } from 'react';
+import { KeyboardEvent, useState } from 'react';
 import SearchIcon from './search.svg';
 import { useRouter } from 'next/router';
 

@@ -6,9 +6,11 @@ import axios from 'axios';
 import { IMenuItem } from '../interfaces/menu.interface';
 import { Search } from '../components/Search/Search';
 import { API } from '../helpers/api';
+import Error from 'next/error';
 
 function Home(menu: IHomeProps): JSX.Element {
 	const [rating, setRating] = useState<number>(0);
+
 	return (
 		<>
 			<Htag tag="h1">Заголовок</Htag>
