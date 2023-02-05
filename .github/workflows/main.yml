@@ -15,6 +15,6 @@ jobs:
         registry: ghcr.io
         name: ghcr.io/RidiculousCircumstances/ratingapp-purple-school/ratingapp-purple-school
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ secrets.REGISTRY_TOKEN }}
         tags: "develop"
      
